@@ -16,6 +16,11 @@ The docs are powered by [VitePress](https://vitepress.dev/). They are also viewa
 
 You can request changes by making a fork and opening a [pull request](https://github.com/qmk/qmk_firmware/pulls).
 
+To compile my own layout for ergodash use the following command:
+``` bash
+qmk compile -kb omkbd/ergodash/rev1 -km nordic -e CONVERT_TO=helios
+```
+
 ## Supported Keyboards
 
 * [Planck](/keyboards/planck/)
