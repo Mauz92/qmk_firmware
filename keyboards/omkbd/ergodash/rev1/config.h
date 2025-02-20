@@ -21,6 +21,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUDIO_PIN C6
 
 #define SELECT_SOFT_SERIAL_SPEED 1
+#define MAX_DEFERRED_EXECUTORS 10
+#define TAPPING_TERM 200
+#define QUICK_TAP_TERM 0
 /*Sets the protocol speed when using serial communication*/
 //Speeds:
 //0: about 189kbps (Experimental only)
